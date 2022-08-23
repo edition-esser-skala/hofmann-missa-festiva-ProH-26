@@ -57,3 +57,55 @@ KyrieClarinoI = {
     c4 r r\fermata \bar "|." %69 finis
   }
 }
+
+GloriaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'4\fE r r2
+    r4 d c r
+    r2 d4 r
+    R1*4 %7
+    r2 d4\fE g8 g
+    g4 f8 e d4 d8 d
+    d4. d8 e4 r %10
+    r d8. d16 c4 r
+    R1*7 %18
+    c4\fE r r2
+    R1*4 %23
+    r2 d
+    e4 f8 e e4 d %25
+    d r r2
+    R1
+    r4 e2 d8 d
+    c4 r r2
+    R1*4 %33
+    r2 r4 d
+    c r r2 %35
+    R1*7 %42
+    r4 d2\fE c8 e
+    e4 d d^\critnote r
+    R1*2 %46
+    r4 d8. d16 c4 r
+    R1*2
+    c8. c16 c4 r8 e^\critnote e d %50
+    c4 c r8 e e d
+    c8. c16 c4 r2
+    r \pa g'8 g4 fis8 \pd
+    g4 r r2
+    R1*17 %71
+    r2 d4 r
+    e r r8 g4 fis8
+    g4 r r2
+    R1*19 %93
+    r2 r4 g,8.\fE g16
+    g2 r %95
+    R1*5 %100
+    r4 d' c r
+    r2 r8 e d4
+    c r r2
+    R1*3 %106
+    r2 e8\fE e d4
+    e d c r\fermata \bar "|." %108 finis
+  }
+}
