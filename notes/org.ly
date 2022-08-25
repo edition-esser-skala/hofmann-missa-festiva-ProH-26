@@ -614,3 +614,49 @@ CredoBassFigures = \figuremode {
   r2. <4>8 <3>
   r1 %113 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    r2 \mvTr d8.\p-\senzaOrg \tuplet 3/2 16 { fis32 e d } a'16(-. a-. a-. a-.)
+    fis8 d g4 fis e8 a,
+    \mvTr d4\f-\tutti-\colOrg d r8 \mvTr d\p-\solo e a,
+    d d' h e, \mvTr a4\f-\tutti a
+    r8 \mvTr a\p-\solo cis fis dis h r e %5
+    cis a r d \mvTr g,4\f-\tutti g \noBreak
+    gis8 gis16 gis gis8 gis a8. a16 a,4\fermata \bar "||"
+    \tempoPleni a4 a8 a a4 a8 a \noBreak
+    a4 a8 a d d r4
+    d d8 d d4 d8 d %10
+    d4 d8 d g g r4
+    a8. a16 d,4 a' a,
+    d8 d' d,4 r r8 dis
+    e e' e,4 r r8 cis
+    d! d' d, d g g g g %15
+    fis fis cis cis d e fis d
+    a'4 a, d d8 d
+    d2 d\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r
+  r2. \bo <[7 \l]>8 <7>
+  r4 <7>8 <7 _+> r2
+  r4 <6> <6 5>2 %5
+  \bc <[6 5]> <6>
+  <6 5> <9 4>4 <8 3>
+  r1
+  <7>2 <9 4>8 <8 3>4.
+  r1 %10
+  <7!>2 <9 4!>8 <8 3>4.
+  <_+>2 <4>4 <3>
+  r2.. \bo <[6 4]>16 \bc <[5 3]>
+  <9 4>8 <8 3>2. \bo <[6 4]>16 \bc <[5 3]>
+  <9 4>8 <8 3>4. <3>4 <4> %15
+  <6> q r8 <6> <[6]>4
+  <4> <3>2.
+  <6 4>2 <5 3> %18 finis
+}

@@ -298,3 +298,28 @@ CredoViolinoI = {
     d,4 <a e' cis'> <a fis' d'> r\fermata \bar "|." %113 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    d8.\p \tuplet 3/2 16 { fis32 e d } a'16(-. a-. a-. a-.) fis8 d'4 cis8
+    d8 fis~ fis16 dis( e h) h( gis a d) d( cis e g,)
+    <fis d'>4\f q r2
+    d8.\p \tuplet 3/2 16 { fis32 e d } d'16(-. d-. d-. d-.) cis4\f cis
+    a8.\p \tuplet 3/2 16 { cis32 h a } a'16(-. a-. a-. a-.) a4 g! %5
+    g fis e\f e \noBreak
+    d8 d16^\critnote d d8 d d8. cis16 cis4\fermata \bar "||"
+    \tempoPleni a'16 a, a a cis a e' cis a' a, a a cis a e' cis
+    g' e cis a e' cis a g g8\trillE fis d'16( e32 fis g a h cis)
+    d16 d, d d fis d a' fis d' d, d d fis d a' fis %10
+    c' a fis d a' fis d c c8\trill h \tuplet 3/2 8 { \sbOn g'16 fis g e d e \sbOff }
+    cis( a) g'( e) fis( d) d'( fis,) e d' d d a,8 cis'
+    d,4 r8 a a8. h16 c8 h16 a
+    a8 g r g g8. a16 h8 a16 g
+    g8 fis r a h16 g g' h, cis a a' cis, %15
+    d( a fis' a,) e'( a, g' a,) fis'( a cis, e) d fis a d
+    e, d' d d a,8 cis' d,4 a8 a
+    h2 a\fermata \bar "|." %18 finis
+  }
+}

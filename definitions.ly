@@ -13,6 +13,8 @@ tempoCredo = \tempoMarkup "Allegro"
   tempoEtIncarnatus = \tempoMarkup "Adagio"
   tempoCrucifixus = \tempoMarkup \markup \concat { "Andante " \normalsize \critnote }
   tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

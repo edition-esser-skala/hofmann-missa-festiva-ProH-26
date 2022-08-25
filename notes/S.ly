@@ -544,5 +544,58 @@ CredoSopranoLyrics = \lyricmode {
   men,
   a -- men, a --
   men, a -- men. %113 finis
-  % a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men,
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    \mvTr d'4\fE^\tuttiE d r2
+    r cis4 cis
+    R1 %5
+    r2 e4 e \noBreak
+    d8 d16 d d8 d d8. cis16 cis4\fermata \bar "||"
+    \tempoPleni cis4 cis8 cis cis4 cis8 cis \noBreak
+    e4 g,8 g g fis r4
+    d' d8 d d4 d8 d %10
+    a'4 c,8 c c h g'( e
+    cis8.) cis16 d4 d( cis)
+    d r8 a a8. h16 c8 h16([ a)]
+    a8 g r g g8. a16 h8 a16([ g)]
+    g8 fis r a h4 cis %15
+    d e fis8 cis d d
+    d4( cis) d a8 a
+    h2 a\fermata \bar "|." %18 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, %3
+  san -- ctus,
+  %5
+  san -- ctus
+  Do -- mi -- nus De -- us Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, sunt
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li, sunt %10
+  coe -- li et ter -- ra glo --
+  ri -- a tu --
+  a. O -- san -- na in ex --
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, o -- san -- na %15
+  in ex -- cel -- sis, in ex --
+  cel -- sis, in ex --
+  cel -- sis. %18 finis
+}
+
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+%
+%
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.
