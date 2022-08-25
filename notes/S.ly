@@ -321,3 +321,228 @@ GloriaSopranoLyrics = \lyricmode {
   a -- men, a -- %107
   men, a -- men. %108 finis
 }
+
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr d'4\fE^\tutti d8 d h a h4
+    a8 d fis e d2~
+    d8 cis16 cis h4 a a8\p a
+    b4 b8 b a8. a16 a4
+    g4. g8 f4 f %5
+    f4. f8 e4 a8\f a
+    a4. a8 d d16 d d8 cis
+    h4 h cis cis8 h
+    ais ais h h h4( ais8.) ais16
+    h4 r d8 d d d %10
+    dis4 dis e8 h a g16 g
+    g8. fis16 fis4 fis' a,8 a
+    a4 g e' g,8 g
+    g8. fis16 fis4 h4. h8
+    cis4 cis8 cis d d d([ cis)] %15
+    d4 r a8. a16 a8 a
+    g4 g g8 g g g
+    fis([ e16 fis] g8) fis fis4 e
+    a4. a8 a4 cis8 e
+    \appoggiatura e d4. d8 cis4 r8 cis %20
+    cis4 cis8 cis d8. d16 d8 d
+    c4. c8 c4 h8 h
+    h4 a8 fis' e([ d cis h]
+    a[ g)] fis a a2
+    a4 d d( cis) \noBreak %25
+    d r r2\fermata \bar "||"
+    \tempoEtIncarnatus R1*3
+    r8 h\fE h h h8. h16 h8 h %30
+    ais4. h16 cis cis8 h fis fis
+    eis eis eis8. eis16 fis4 fis
+    d'4. cis16([ h)] a!4( gis8) gis
+    fis4 \tempoCrucifixus a8 a a4 g
+    g8. g16 g8 fis fis4 e8 e %35
+    eis8. eis16 eis8 fis gis4 gis
+    g2 fis
+    fis4 fis fis4. fis8 \noBreak
+    fis1\fermata \bar "||"
+    \tempoEtResurrexit d'4\fE d8 cis d d d cis16 cis \noBreak %40
+    d8 d r a h4 a8 g
+    g4( fis) e e8 fis
+    g([ a)] h cis d d r4
+    c2\p c
+    c h4. h8 %45
+    h([ a)] a g g4 fis8 fis\f
+    g8. g16 g8 g g g g fis
+    fis8. e16 e4 d2
+    fis a
+    d h8 a r4 %50
+    cis8 d r4 r f,\p
+    g2. f4~
+    f e8([ d)] e4 a8\f a
+    cis4 cis8 cis d4 d8 d
+    d cis h4 a r %55
+    r2 e'4. d16([ cis)]
+    cis4 h8 cis d4. d8
+    d8. cis16 cis4 e8 e e e
+    e4 d d4. d8
+    d4 d cis4. cis8 %60
+    cis4 h8 h h4 a
+    a8 g g g16 g g8. fis16 fis4
+    d'8 d d cis d4 d8 a
+    d d d cis d4 d
+    d4. cis8 h4. a8 %65
+    g4 fis8 fis fis4( e)
+    d r r2
+    r8 fis' fis fis fis4.( e8)
+    d fis fis fis fis4. e8
+    d d d d d4. c8 %70
+    h4 d d4. c8
+    h4 h h4. a8
+    g h h h h4.( a8)
+    g4 g8 g g4. g8
+    fis a d d d4 cis %75
+    r a8 a cis4 d
+    d8. d16 d8 d d cis r4
+    R1*3 %80
+    a2\p h
+    c8[ h] a2 gis4
+    a g2 f4~
+    f e8[ d] e4 a\f
+    d d8 d d4 d8 d %85
+    d d d d16 d d4 cis
+    R1*3
+    d4 fis r8 d16[( cis] d[ h e d]) %90
+    cis8 e fis4. e4 \once \tieDashed d8~
+    d cis h4 a r
+    R1
+    r2 a4 h
+    r8 g16([ fis] g[ e a g]) fis4 a~ %95
+    a h cis h~
+    h cis d r8 d~
+    d16[ h e d] cis4~ cis16[ a d cis] h4~
+    h8[ cis16 h] ais4 h8 h h([ ais)]
+    h4 r r2 %100
+    R1
+    h4 d r8 h16([ a!] h[ gis cis h])
+    ais4 r8 h( g!4 fis)
+    fis8 fis'16([ e] fis[ d g fis]) e8 e16([ d] e[ cis fis e])
+    d8 d16([ cis] d[ h e d] cis8) d e([ d)] %105
+    cis4 r r2
+    R1
+    r4 d e^\critnote r
+    r8 d16([ cis] d[ h e d]) cis8 e16[ d] e[ cis fis e]
+    \once \tieDashed d4~ d16[ h e d] cis8 d d([ cis)] %110
+    d4 r r2
+    r a8 d d([ cis)]
+    d4 cis d r\fermata \bar "|." %113 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe --
+  li et ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- um
+  et in -- vi -- si -- %5
+  bi -- li -- um, et in
+  u -- num Do -- mi -- num Je -- sum
+  Chri -- stum, Fi -- li -- um
+  De -- i u -- ni -- ge -- ni --
+  tum. Et ex Pa -- tre %10
+  na -- tum an -- te o -- mni -- a
+  sae -- cu -- la, De -- um de
+  De -- o, lu -- men de
+  lu -- mi -- ne, De -- um
+  ve -- rum de De -- o ve -- %15
+  ro. Ge -- ni -- tum non
+  fa -- ctum, con -- sub -- stan -- ti --
+  a -- lem Pa -- tri,
+  per quem o -- mni -- a
+  fa -- cta sunt. Qui %20
+  pro -- pter nos ho -- mi -- nes et
+  pro -- pter no -- stram sa --
+  lu -- tem de -- scen --
+  dit de coe --
+  lis, de coe -- %25
+  lis.
+
+  Et in -- car -- na -- tus est de %30
+  Spi -- ri -- tu San -- cto ex Ma --
+  ri -- a Vir -- gi -- ne, et
+  ho -- mo fa -- ctus
+  est. Cru -- ci -- fi -- xus
+  e -- ti -- am pro no -- bis sub %35
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- sus
+  et se -- pul -- tus
+  est.
+  Et re -- sur -- re -- xit ter -- ti -- a %40
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras, et a --
+  scen -- dit in coe -- lum,
+  se -- det,
+  se -- det ad %45
+  dex -- te -- ram Pa -- tris. Et
+  i -- te -- rum ven -- tu -- rus est cum
+  glo -- ri -- a iu --
+  di -- ca --
+  re vi -- vos, %50
+  vi -- vos et
+  mor -- _
+  tu -- os, cu -- ius
+  re -- gni non e -- rit, non
+  e -- rit fi -- nis. %55
+  Et in
+  Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi -- vi -- fi --
+  can -- tem, qui ex
+  Pa -- tre Fi -- li -- %60
+  o -- que pro -- ce -- dit,
+  qui cum Pa -- tre et Fi -- li -- o
+  si -- mul ad -- o -- ra -- tur et
+  con -- glo -- ri -- fi -- ca -- tur:
+  qui lo -- cu -- tus %65
+  est per Pro -- phe --
+  tas.
+  Et u -- nam san --
+  ctam, san -- ctam ca -- tho -- li --
+  cam et a -- po -- sto -- li -- %70
+  cam Ec -- cle -- si --
+  am, con -- fi -- te --
+  or u -- num ba -- ptis --
+  ma in re -- mis -- si --
+  o -- nem pec -- ca -- to -- rum. %75
+  Et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+
+  mor -- tu -- %81
+  o -- _ _
+  _ _ _
+  _ rum, et
+  vi -- tam ven -- tu -- ri, ven -- %85
+  tu -- ri sae -- cu -- li, a -- men,
+
+  a -- men, a -- %90
+  men, a -- _ _ _
+  men, a -- men,
+
+  a -- men,
+  a -- men, a -- %95
+  _ _ _
+  _ men, a --
+  _ _
+  _ _ men, a --
+  men, %100
+
+  a -- men, a --
+  men, a --
+  men, a -- men, a --
+  men, a -- men, a -- %105
+  men,
+
+  a -- men,
+  a -- men, a -- _
+  _ _ men, a -- %110
+  men,
+  a -- men, a --
+  men, a -- men. %113 finis
+  % a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men,
+}

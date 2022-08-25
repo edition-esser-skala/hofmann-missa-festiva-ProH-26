@@ -9,6 +9,10 @@
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup \markup \concat { "Andante " \normalsize \critnote }
+  tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

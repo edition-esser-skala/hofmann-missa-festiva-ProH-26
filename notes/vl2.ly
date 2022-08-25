@@ -186,3 +186,122 @@ GloriaViolinoII = {
     d32( cis h a g fis e d) e8 cis' d,4 r\fermata \bar "|." %108 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCredo
+    <d d'>4\f d''16( a fis d) h'( d, a' d,) h' d, d' h
+    a8 fis, a g fis16( g32 a h cis d e) fis16. d32 d16. d32
+    d16. h'32 cis,16. a'32 h,8 gis' a,4 a16(-.\p a-. a-. a-.)
+    a(-. a-. a-. a)-. g(-. g-. g-. g)-. g(-. g-. g-. g)-. f(-. f-. f-. f)-.
+    f(-. f-. f-. f)-. e(-. e-. e-. e)-. e(-. e-. e-. e)-. d(-. d-. d-. d)-. %5
+    d(-. d-. d-. d)-. d(-. d-. d-. d)-. cis4 a'8\f d32( cis h a)
+    e'8 d32( cis h a) a'16.-\critnote a,32 cis16. a32 d8 d32( e fis! g) a16. d,32 a'16. cis,32
+    h8 g32( a h cis) d8 h32( cis d e64 fis) g8 \tuplet 3/2 8 { e16 fis e \sbOn g fis e d cis h \sbOff }
+    ais8 ais16( h) h( d) d-! d-! \tuplet 3/2 8 { \sbOn h' h, cis d cis h \sbOff } cis8 ais'
+    h, \tuplet 3/2 8 { fis16 g fis \sbOn d e d fis g fis \sbOff } h,8 h'16.-\critnote cis32 \tuplet 3/2 8 { d16 cis h } fis'16.[ e32] %10
+    dis8 c'16( a) a( fis) fis( dis) e8 g,16 g' fis, fis' e, e'
+    e8.(\trill dis32 e) dis8 h32( cis dis e) fis8 h,32( cis dis e) fis16. dis32 a16. fis32
+    fis8.(\trill e32 fis) e4 e'8 a,32( h cis d) e16. cis32 g16. e32
+    e8.(\trill d32 e) d4 h'16 g d h g16.-\critnote h'32 h8\trill
+    cis16 g e cis a16. cis'32 \tuplet 3/2 8 { e16[ d cis] } d fis a d e,8 cis' %15
+    d, \tuplet 3/2 8 { a16 h a \sbOn fis g fis a h a \sbOff } d,8 \tuplet 3/2 8 { fis16 g fis } d'8 \tuplet 3/2 8 { fis,16 g fis }
+    fis( e dis e) e e'( fis e) e e,( fis e) e' e,( fis e)
+    \once \slurDashed e( d cis d) e8 d d8.(\trill cis32 d) cis4
+    a'16( h32 cis d e fis gis) a16 a, a' e fis d, a'' fis e a, a' e
+    d fis, d' d d e, h'' d, cis a e cis a16. cis'32 \tuplet 3/2 8 { cis16[ h a] } %20
+    a'( e) e( cis) cis( a) a' a a( fis) fis( d) d( a) a'^\critnote a
+    a( c) c( a) a( fis) c( a) a8.(\trill g32 a) g8 g'16. g,32
+    g8.(\trill fis32 g) fis8 d' cis( h a g)
+    fis e d a'' a16 a8 a a h32 cis
+    d16 a( h a) d fis,( e d) e8 d' a, cis' \noBreak %25
+    d,,4 r r2\fermata \bar "||"
+    \tempoEtIncarnatus h16\fE h8 h h h16 h h8 h h h16 \noBreak
+    ais ais h ais ais4~ ais16 ais h ais ais4
+    g'16\fz ais,8 h16 d'\fz eis,8 fis16 \sbOn cis'32(\ff e d cis) cis( h ais h) \sbOff h,8 ais
+    h16 d8\fE d d d16 cis cis8 cis cis cis16 %30
+    cis cis8 cis cis16 d e e cis8 d16-\critnote d d8 d16
+    d d8 d d d16 cis cis8 fis16 a!( cis) fis( a,)
+    h h8 h h16( a gis) fis fis8 fis16 eis eis8 eis16
+    fis4 \tempoCrucifixus a8 a \slurDashed a16( fis h, a') g( e h e) \slurSolid
+    g( e a, e') g( a, fis' a,) fis'( d a' fis) e( cis a cis) %35
+    \once \slurDashed eis( h gis h) eis( h fis' h,) gis'( eis h eis) gis( eis d h)
+    ais( cis e fis) g( e ais, g') fis( d h d) fis( d h' fis)
+    e( fis cis fis) d( fis h, fis') fis( d h fis') fis( cis ais cis) \noBreak
+    h1\fermata \bar "||"
+    \tempoEtResurrexit d'16\fE fis a d a( fis g e) fis d' a a a( fis g e) \noBreak %40
+    fis d a fis d a'' fis d h d g h a, a' g, g'
+    g( fis e fis) d, fis a d a, cis e a cis,( d) d( e)
+    e( fis) fis( g) g( e) e( fis) fis8 fis r4
+    r8 a\p a, a' r a a, a'
+    r a a, a' r g g, g' %45
+    g fis fis e e4 dis8 fis\f
+    g16 h e g e, g h e a,, cis e g e' e, d fis
+    d8.(\trill cis32 d) cis4 d16 a d a d a d a
+    fis' d fis d fis d fis d a' fis a fis a fis a fis
+    d' a fis' d a' fis d' a h8 a d16 a fis d %50
+    cis8 d r4 r d,\p
+    e2. \once \tieDashed d4~
+    d4. d8 cis4 a16\f cis e a
+    cis a e' cis a' e cis a d fis! a d a, d fis a
+    gis d cis a' h,8 gis' a, a'16 fis fis( e) a-! d,-! %55
+    d( cis) a' a, h4\trill a8 cis cis16 \once \slurDashed cis(^\critnote h a)
+    a8.(\trill gis32 a) gis8 a h d d16 gis,( a h)
+    h8.(\trill a32 h) a4 cis8 e e16 \once \slurDashed cis( d cis)
+    cis8.(\trill h32 cis) h4 h,16 d fis h d fis h fis
+    g e, g' g g \once \slurDashed h,( cis d) cis a, cis e a cis e g %60
+    fis d, d' cis h g g' fis e cis, cis' h a fis fis' e
+    d h, h' a g e cis e e8.(\trill d32 e) d4
+    d'16 fis a d fis,( d e cis) d d, fis a d a fis' d
+    a' d fis, fis fis( d e cis) d d, fis a d fis a fis
+    d d, d' d d( cis) cis( h) h h, h' h h( a) a( g) %65
+    g cis e g fis d a fis d' a fis d a8 cis'
+    d, d''16 h h( a) d g, g( fis) d' d, e4\trillE
+    d r r8 fis,16 fis' fis( e) e( cis)
+    cis( d) h,8 r4 r8 fis'16 fis' fis( e) e( cis)
+    cis( d) h,8 r4 r8 d16 d' d( c) c( a) %70
+    a( h) g,8 r4 r8 h16 d' d( c) c( a)
+    a( h) h,8 r4 r8 h16 h' h( a) a( fis)
+    fis( g) e8 r4 r8 h16 h' h( a) a( fis)
+    fis g e g h e g h e,, g cis e a,, cis e g
+    fis a d fis d fis a d d,, fis a d a, cis e a %75
+    a,( h32 cis d e fis gis) a16 cis e a cis, e a cis d, fis a d
+    d,( e32 fis g a h cis) d16. a32 fis16. d32 d8 cis r4
+    R1
+    d,2\p e
+    f8 e d2 cis4 %80
+    d8 e f2 e4
+    e2. e4
+    e2. \once \tieDashed d4~
+    d cis8 h cis4 a'\f
+    d16( e32 fis! g a h cis) d16 a fis d h' g d h g h d g %85
+    h \once \slurDashed h,( cis d) e, h' d h h8.(\trillE a32 h) a4
+    R1*2
+    a4 h r8 g16 fis g e a g
+    fis4 fis2 e4 %90
+    e8 e' fis4 fis16 d' e,8 e16 cis' d,8
+    d16 h' cis, a' h,8 gis' a, e'16\p d e cis fis e
+    \once \tieDashed d4~ d16 h e d <cis e,>4 fis,\f
+    r8 d16 cis d h e d cis4 \once \tieDashed d~
+    d8 cis16 d e4 d4 d8. e16 %95
+    fis4 gis a fis
+    g8 e4 d16 e fis8 a16 g a fis h a
+    g4~ g16 e a g fis4~ fis16 d g fis
+    \once \tieDashed e4~ e16 cis fis e d d' fis h cis,8 ais'
+    h, fis'16\p e fis d g fis \once \tieDashed e4~ e16 cis fis e %100
+    <d fis,>4 g,\f r8 e16 d e cis fis e
+    d4 fis4. eis16 fis gis4
+    fis d cis2
+    d4 r8 \once \tieDashed g~ g fis r \once \tieDashed fis~
+    fis e r e4 fis8 g fis %105
+    e4 r r2
+    R1
+    a4 h r8 g16 fis g e a g
+    fis8 fis4 e8 e4 \once \tieDashed a~
+    a16 fis h a \once \tieDashed g4~ g8 fis16 fis' e8 cis' %110
+    d, fis16\p e fis d g fis g e a g a fis h a
+    g fis e d cis h a g fis\f fis' a d e,8 cis'
+    d,4 <a e' cis'> <a fis' d'> r\fermata \bar "|." %113 finis
+  }
+}
