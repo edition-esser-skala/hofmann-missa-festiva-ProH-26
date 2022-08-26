@@ -663,3 +663,149 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- sis, in ex --
   cel -- sis. %33 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*8 %8
+    \mvTr a2\fE^\tuttiE d4
+    e e4. e8 %10
+    d4 d d
+    c!2 c4
+    c h r
+    h4. h8 c4
+    c c( h) %15
+    a r r
+    R2.*7 %23
+    c2 c4
+    c c4. c8 %25
+    c4 c8 c c c
+    c4 h r
+    b4. b8 a4
+    h a2
+    a4 r r %30
+    R2.
+    r4 d d
+    d d d
+    h! h8 h h h
+    a4 a r %35
+    R2.*4 \noBreak
+    R2.\fermata \bar "||" %40
+    \key d \major \time 4/4 \tempoDona \newSpacingSection
+      R1*2
+    a2\fE d
+    cis4 fis gis, e'8[ d]
+    cis[ h] \once \tieDashed a4~ a8[ g!] fis4 %45
+    r8 h16[ a] h8[ cis] d4 g~
+    g16[ fis e d] cis8[ h16 cis] d4. cis8
+    h2 a8 a'16[ gis] fis[ e d cis]
+    h4 e, a r
+    r8 a16[( gis] a8[ h] cis4) a %50
+    h2 a
+    a h
+    gis a
+    fis8[( fis'16 e] d[ cis h a] gis8) a a([ gis)]
+    a cis([ h)] e e cis h[ e]~ %55
+    e e e4 e r
+    R1*3
+    r8 fis,16[ e] fis8[ gis] a4 d~ %60
+    d16[ cis h a] gis8[ fis16 gis] a4. g8
+    fis[ e] d4 r2
+    R1*3 %65
+    h'2 e
+    d4 g ais,( fis'8[ e]
+    d[ cis)] h4 h2
+    cis4 r8 d cis2~
+    cis h4 h~ %70
+    h h cis a
+    a a h g
+    g gis ais8( h4 ais8)
+    h d([ cis)] fis fis d cis[ fis]~
+    fis h, h([ ais)] h4 r %75
+    R1*3
+    r2 a
+    d cis4 fis %80
+    gis, e'8[ d] cis[ h] \once \tieDashed a4~
+    a8[ g] fis4 r8 h16[ a] h8[ cis]
+    d1
+    e4 d2 cis8[ h]
+    a1~ %85
+    a2 a4 r8 d16[( cis]
+    h4. cis16[ d] e8) a, a4
+    a r r2
+    R1*2 %90
+    r8 a4 a8 a4. a8
+    a a a4 a a
+    a r r2\fermata \bar "|." %93 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %9
+  De -- i, qui %10
+  tol -- lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re --
+  re no -- %15
+  bis.
+
+  A -- gnus %24
+  De -- i, qui %25
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re --
+  re no --
+  bis. %30
+
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %35
+
+  Do -- na %43
+  no -- bis pa -- _
+  _ _ cem, %45
+  pa -- _ _ _
+  _ _ _
+  _ cem, pa -- _
+  _ _ cem,
+  pa -- cem, %50
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa -- \xE cem, pa --
+  \x cem, do -- na no -- bis pa -- %55
+  cem, pa -- cem.
+
+  Pa -- _ _ _ %60
+  _ _ _
+  _ cem,
+
+  do -- na %66
+  no -- bis pa --
+  cem, pa --
+  cem, do -- _
+  na no -- %70
+  bis pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem, do -- na no -- bis pa --
+  em, pa -- cem. %75
+
+  Do -- %79
+  na no -- bis %80
+  pa -- _ _ _
+  cem, pa -- _
+  _
+  _ _ _
+  _ %85
+  cem, pa --
+  cem, pa --
+  cem,
+
+  do -- na no -- bis, %91
+  no -- bis pa -- cem, pa --
+  cem. %93 finis
+}

@@ -671,3 +671,154 @@ BenedictusBassoLyrics = \lyricmode {
   cel -- sis, in ex --
   cel -- sis. %33 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*8 %8
+    \mvTr d2\fE^\tuttiE d4
+    d cis4. cis8 %10
+    d4 d d
+    dis2 dis4
+    e e r
+    d!4. d8 c4
+    a e'2 %15
+    a,4 r r
+    R2.*7 %23
+    a'2 a4
+    fis fis4. fis8 %25
+    f4 f8 f f f
+    e4 e r
+    cis4. cis8 d4
+    gis,4 a2
+    d4 r r %30
+    R2.
+    r4 d d
+    b b b'
+    gis gis8 gis gis gis
+    a4 a, r %35
+    R2.*4 \noBreak
+    R2.\fermata \bar "||" %40
+    \key d \major \time 4/4 \tempoDona \newSpacingSection
+      d2\fE g \noBreak
+    fis4 h cis,( a'8[ g]
+    fis[ e)] d4 r8 fis16[ e] fis8[ gis]
+    a4 d~ d16[ cis h a] gis8[ fis16 gis]
+    a4. g8 fis[ e] d4 %45
+    e2 d8 d'16[ cis] h[ a g fis]
+    e4 a, d r
+    R1
+    r2 a
+    d2 cis4 fis %50
+    gis, e'8[ d] cis[ h] a[ h16 cis]
+    d8[ fis16 e] d[ cis h a] gis4. a16[ h]
+    cis8[ e16 d] cis[ h a gis] fis4. gis16[ a]
+    h8[ d'16 cis] h[ a gis fis] e8 a e4
+    a,8 a'([ gis]) d' cis a gis d' %55
+    cis a e4 a, r
+    R1*5 %51
+    d2 g
+    fis4 h cis, a'8[ g]
+    fis[ e] d[ e16 fis] g4. fis8
+    e[ d] cis[ d16 e] fis4. e8 %65
+    d[ cis] h4 cis2
+    h4 e fis4. gis16[ ais]
+    h4. a8 gis2
+    fis4 \once \tieDashed h~ h16[ a gis fis] eis8[ dis16 eis]
+    fis8[ gis a ais] h4 h,8[ cis16 d] %70
+    e8[ g16 fis] e[ d cis h] a4. h16[ cis]
+    d8[ fis16 e] d[ cis h a] g4. a16[ h]
+    cis8[ e16 d] cis[ h ais gis] fis8 h fis'4
+    h,8 h([ ais]) e' d h ais[( e']
+    d) h fis'4 h, r %75
+    R1*2
+    r2 d
+    g fis4 d
+    r8 fis16[ e] fis8[ gis] a4 d~ %80
+    d16[ cis h a] gis8[ fis16 gis] a4. g8
+    fis[ e] d4 e2
+    d4. cis8 h2
+    a1~
+    a~ %85
+    a2 d4 r8 d
+    e[ g16 fis] e[ d cis h] a8 d a4
+    d r r2
+    R1*2
+    r8 d([ cis)] g' fis d cis([ g'] %91
+    fis) d a4 d a
+    d r r2\fermata \bar "|." %93 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus %9
+  De -- i, qui %10
+  tol -- lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re --
+  re no -- %15
+  bis.
+
+  A -- gnus %24
+  De -- i, qui %25
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re --
+  re no --
+  bis. %30
+
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %35
+
+  Do -- na %41
+  no -- bis pa --
+  cem, pa -- _
+  _ _ _
+  _ _ _ cem, %45
+  pa -- cem, pa -- _
+  _ _ cem,
+
+  do --
+  na no -- bis %50
+  pa -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ cem, pa --
+  cem, do -- na no -- bis, no -- bis %55
+  pa -- cem, pa -- cem.
+
+  Do -- na %62
+  no -- bis pa -- _
+  _ _ _ _
+  _ _ _ _ %65
+  _ cem, pa --
+  cem, pa -- _ _
+  _ _ _
+  cem, pa -- _
+  _ _ _ %70
+  _ _ _ _
+  _ _ _ _
+  _ _ _ cem, pa --
+  cem, do -- na no -- bis, no --
+  bis pa -- cem. %75
+
+  Do -- %78
+  na no -- bis
+  pa -- _ _ _ %80
+  _ _ _
+  _ cem, pa --
+  _ _ _
+  _
+  %85
+  cem, pa --
+  _ _ _ cem, pa --
+  cem,
+
+  do -- na no -- bis pa -- %91
+  cem, pa -- cem, pa --
+  cem. %93 finis
+}

@@ -397,3 +397,104 @@ BenedictusViolinoII = {
     g2 fis\fermata \bar "|." %33 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/4 \tempoBenedictus
+    \tiny <f a>4\fE q q
+    <g b> <e a> <e a>8 e
+    e4 d r8 a'
+    b16( d e fis g a b a g f e g)
+    a,( c d e f g a g f e d f) %5
+    g,( b a g) g'( b a g) d( cis f e)
+    d f e d d d e f g g, f e
+    d8. e16 d4 cis\trillE
+    \normalsize d16( f a d) f( d cis d) a'( f d a)
+    b( g fis g) g'( e b' g) e( cis b g) %10
+    d( g b d) f( d cis d) a'( f d a)
+    fis( a c dis) fis( dis a' fis) dis( c! h a)
+    e( a c e) gis( e h' gis) e( h gis e)
+    f!( gis h d) f( gis, a gis) a( c e a)
+    c( a gis a) e( c a e) \once \slurDashed h( e gis e) %15
+    << { \tiny <c e>4 q <e a> } \\ { a,4 r r } >>
+    \tiny <d f> q d8 h'
+    h4 a r8 e'
+    f a,16 d f a a d d h g f
+    e8 g,16 c e g g c c a f e %20
+    d8 d'~ d16 c( h a) gis( a h h,)
+    a( c h a) a-! a( h c) d d,( c h)
+    a8. h16 a4 gis\trillE
+    \normalsize a16( c e a) c( a gis a) e'( c a e)
+    dis( fis a h) dis( fis a c) h( a gis a) %25
+    a c,( h c) c a( gis a) a' c,( h a)
+    e( a c e) gis( e h' gis) e( h gis e)
+    g( b cis e) g( b e, g) f( d cis d)
+    d( f, e d) a( d f a) a,( cis e cis)
+    << { \tiny d4 <d f> q } \\ { d4 r r } >> %30
+    \tiny <g b> q <e a>8 e
+    << { \tiny e4 d16( f a d) } \\ { r4 d,16( f a d) } >> \normalsize f( d cis d)
+    d( b f d) b( d f b) d( b d f)
+    f( d h gis) f( d h gis) f''( d cis d)
+    d( a f a) a( e cis a) << { \tiny d8 f } \\ { d r } >> %35
+    \tiny b'16( d e fis g a b a g f e g)
+    a,( c d e f g a g f e d f)
+    g,( b a g) g'( b a g) d( cis f e)
+    d8 d~ d16 d,( cis d) e8 d \noBreak
+    d4\trill cis r\fermata \normalsize \bar "||" %40
+    \key d \major \time 4/4 \tempoDona \newSpacingSection
+      r8 d'16\fE fis a d, d' d, h'8 d,16 g h d, d' d, \noBreak
+    a'8 d,16 d' \tuplet 3/2 8 { \sbOn d d, e fis e d \sbOff } e( fis) fis( g) cis,( d) d( e)
+    d8 d,16 fis a d, d' d, fis'8 d16 d' d d, h'^\critnote d,
+    \tuplet 3/2 8 { \sbOn cis a h cis h a \sbOff } fis'( e) e( d) d8 d'16 d, h e e, d'
+    cis( d) d( e) \tuplet 3/2 8 { \sbOn a, cis h a h cis \sbOff } d8 d16 fis a d, d' d, %45
+    g8 g,16 g' \tuplet 3/2 8 { \sbOn g e fis g fis e \sbOff } fis8 fis,16 fis' h8 h,16 h'
+    g8 e,16 d \tuplet 3/2 8 { \sbOn cis a' h cis h a \sbOff } fis'8 d,16 fis' fis( e) e( d)
+    d8 d,16 d' d8 h'16 d, \tuplet 3/2 8 { \sbOn cis a h cis h a \sbOff } d8 d'16 d,
+    \tuplet 3/2 8 { \sbOn d fis e d e fis \sbOff } gis,8 h'16 d, cis8 a16 cis e a, a' a,
+    fis'8 a,16 d fis a, gis' h, a'8 a,16 a' \tuplet 3/2 8 { \sbOn a gis fis fis e d \sbOff } %50
+    d8 e,16 d' \tuplet 3/2 8 { \sbOn d cis h h a gis \sbOff } a a, e''-! d-! cis-! h-! a-! gis-!
+    fis fis'8 fis fis gis32( a) h16 h,-! d-! cis-! h-! a-! gis-! fis-!
+    e e'8 e e fis32( gis) a16 a,-! cis-! h-! a-! gis-! fis-! e-!
+    d d'8 d d e64( fis gis a) h16. d,32 cis16. a'32 h,8 gis'
+    a,16 e'8 e e e16 e e8 e e fis32( gis) %55
+    a16. e32 a16. cis,32 h8 gis' a, r \once \tieDashed a'4~\p
+    a gis a8 cis,16-! a-! h-! gis-! e'-! gis,-!
+    a8 a16-! fis-! dis'-! a-! fis'-! a,-! gis4 fis~
+    fis e e8 a16\f cis e a, a' a,
+    fis'8 d,16 d' a' d, h' d, \tuplet 3/2 8 { \sbOn cis a h cis h a fis' a gis fis gis a \sbOff } %60
+    h8 e,,16 e' e( d) d( cis) cis( h) h( a) \tuplet 3/2 8 { \sbOn a cis h a h cis \sbOff }
+    d8 fis16 d a' d, d' d, h'8 d,16 g h d, cis' e,
+    d'8 d,16 d' \tuplet 3/2 8 { \sbOn d cis h h^\critnote a g \sbOff } g8 g,16 g' \tuplet 3/2 8 { \sbOn g fis e e d cis \sbOff }
+    d( e) e( fis) \tuplet 3/2 8 { \sbOn fis a g fis g a \sbOff } h,8 h,16 h' h( cis) cis( d)
+    e( fis) fis( g) \tuplet 3/2 8 { \sbOn g fis e d cis h \sbOff } ais8 fis16 fis' fis8 fis,16 fis' %65
+    \slurDashed fis( e) e( d) \slurSolid \tuplet 3/2 8 { \sbOn d h cis d cis h \sbOff } e8 e,16 e' \tuplet 3/2 8 { \sbOn e cis d e d cis \sbOff }
+    d8 d,16 d' \tuplet 3/2 8 { \sbOn g fis e e d cis \sbOff } cis8 fis,16 fis' fis( e) e( d)
+    d( e) e( fis) fis8 fis,16 fis' h8 h,16 h' \tuplet 3/2 8 { \sbOn h gis a h a gis \sbOff }
+    a8 fis,16 cis' d h h' gis eis8 cis,16 cis' cis( h) h( a)
+    a( gis) gis( fis) fis fis' fis, e' d h, fis''-! e-! d-! cis-! h-! a-! %70
+    g g'8 g g \tuplet 3/2 16 { fis32( e d) } cis16 a, e''-! d-! cis-! h-! a-! g-!
+    fis fis'8 fis fis \tuplet 3/2 16 { e32( d cis) } h16 g, d''-! cis-! h-! a-! g-! fis-!
+    e e'8 e e \tuplet 3/2 8 { d32( cis h) } ais16. cis32 d16. h'32 cis,8 ais'
+    h,16 fis'8 fis fis fis16 fis fis8 fis fis gis32( ais)
+    h16. fis32 h16. d,32 cis8 ais' h, r d4~\p %75
+    d cis d8 fis16-! d-! e-! cis-! a'-! cis,-!
+    d8 d16-! h-! gis'-! d-! h'-! d,-! cis4 \once \tieDashed h~
+    h a a8 d16\f fis a d, d' d,
+    h'8 d,,16 cis d( e) e( fis) fis( g) g( a) \tuplet 3/2 8 { \sbOn a a' g fis g a \sbOff }
+    d,8 d,16 d' a' d, h' d, cis8 a16 a' \tuplet 3/2 8 { \sbOn a gis fis fis e d \sbOff } %80
+    d8 d,16 d' h8 h,16 h' cis( d) d( e) \tuplet 3/2 8 { \sbOn e a, h cis h a \sbOff }
+    d( e) e( fis) \tuplet 3/2 8 { \sbOn fis d e fis e d \sbOff } g8 g,16 g' \tuplet 3/2 8 { \sbOn g e fis g fis e \sbOff }
+    fis8 fis,16-\critnote fis' fis( e) e( d) d8 d,16 d' d8 h'16 d,
+    \tuplet 3/2 8 { \sbOn cis a h cis h a \sbOff } fis'( e) e( d) \tuplet 3/2 8 { \sbOn d h cis d cis h \sbOff } e( d) d( cis)
+    cis( d) d( e) e g,( a g) fis a a' fis \tuplet 3/2 8 { \sbOn d fis g a g fis \sbOff } %85
+    e8 d'16 fis, a,8 cis' d,,16 d' fis e d cis h a
+    g g'8 g g g16 g16. e32 fis16. d'32 e,8 cis'
+    d, r d2\p cis4
+    d8 fis16-! d-! e-! cis-! a'-! cis,-! d8 d16-! h-! gis'-! d-! h'-! d,-!
+    cis4 h2 a4 %90
+    a16 <a' a,>8\fE q q q16 q q8 q q h32( cis)
+    d16. a32 d16. fis,32 e8 cis' d,4 <a e' cis'>
+    <a fis' d'> r r2\fermata \bar "|." %93 finis
+  }
+}

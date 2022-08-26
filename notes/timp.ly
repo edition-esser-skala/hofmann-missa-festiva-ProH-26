@@ -208,3 +208,28 @@ BenedictusTimpani = {
     c2 c\fermata \bar "|." %33 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoBenedictus
+    R2.*39 \noBreak %39
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoDona \newSpacingSection
+      R1*14 %54
+    g4\fE r g r %55
+    g r g r
+    R1*5 %61
+    c4\fE r r2
+    r g8 g16 g g8 g
+    c4 r r2
+    R1*21 %85
+    r4 g\fE c r
+    r2 r8 c g8. g16
+    c4 r r2
+    R1*2 %90
+    r8 c16\fE c g4 r8 c16 c g4
+    r8 c g g16 g c4 g
+    c r r2\fermata \bar "|." %93 finis
+  }
+}
