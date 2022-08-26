@@ -660,3 +660,79 @@ SanctusBassFigures = \figuremode {
   <4> <3>2.
   <6 4>2 <5 3> %18 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoBenedictus
+    \mvTr h4\fE-\solo r8 ais h4 r8 ais
+    h4 e8 g fis d16 cis d8 h
+    e e a! a d, d g g
+    cis, cis fis ais, h4 r8 ais
+    h e fis fis g e fis fis, %5
+    h'-\tuttiE h h h fis fis fis fis
+    d d cis h g' g g g
+    fis4 r8 fis dis fis h, a'!
+    g8. fis16 e8 e^\critnote cis e a, g'
+    fis8. e16 d8 d' h g16. h32 g8 e16. g32 %10
+    cis,8 d a' a, d fis cis-\solo a
+    d fis cis a d d g gis
+    a fis16 e fis8 d g g cis, cis
+    fis fis h, h e e a, a
+    d fis cis a d fis cis a %15
+    d g a a h g a a,
+    d'-\tutti d d d a a a a
+    fis fis e d h' h h h
+    a4 r8 a ais cis16 ais fis8 e16 fis
+    d8. cis16 h8 h' e, e a a %20
+    d, d g g cis, cis fis fis
+    h, d16. fis32 h,8 h' d h g8. g16
+    fis8 fis d cis16 h fis'8 fis fis, fis
+    h h' g h16. g32 e8 g16. e32 cis8 e16. cis32
+    ais8 h fis' fis, h4 r8 ais-\solo %25
+    h4 r8 ais h h e e
+    a, a d d g fis g a
+    d,4 r8 \tempoOsanna r r4 r8 dis
+    e e' e,4 r r8 cis
+    d! d' d, d g g g g %30
+    fis fis cis cis d e fis d
+    a'4 a, d d8 d
+    d2 d\fermata \bar "|." %33 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r4. \bo <[6]>2 \bc q8
+  r2 <_+>8 <6>4.
+  <7>4 q q q
+  q \bo <[7] _+>8 <6>2 \bc <[6]>8
+  r4 <6 4>8 <5 _+> r4 <6 4>8 <5 _+> %5
+  r2 <4>4 <_+>
+  <6>2 <7>4 <6\\>
+  <_+>2 <6>4 <_+>8 <[2]>
+  <6>2 q4. <[2]>8
+  <6>2 q4 q %10
+  <6 5> <4>8 <3> r \bo <[6 \l]> <6> <7>
+  r <6> <6> <7>4. <8 6>8 <7 5>
+  r \bc <[6 \l]> r2 <7>4
+  q q q q
+  r8 \bo <[6]> <6> <7>4 <6>8 q \bc <[7]> %15
+  r4 <6 4>8 <5 3>4 <6 5>8 \bo <[6 4]> \bc <[5 3]>
+  r2 <4>4 <3>
+  <[6]>2 <7>4 <6\\>
+  r2 <6>4 <_+>
+  <6>2 <7>4 q %20
+  q q q <7 _+>
+  r2 <[6]>4 <7>8 <6\\>
+  <_+>4 <[6]> <4> <_+>
+  r4 <[6]>2.
+  <6 5>4 \bo <[5 4]>8 <\t _+>2 <6>8 %25
+  r4. <6> <7>4
+  q2 r8 <6> \bc <[6 5]>4
+  r2.. \bo <[6 4]>16 \bc <[5 3]>
+  <9 4>8 <8 3>2. \bo <[6 4]>16 \bc <[5 3]>
+  <9 4>8 <8 3>4. <3>4 <4> %30
+  <6> q r8 <6> <[6]>4
+  <4> <3>2.
+  <6 4>2 <5 3> %33 finis
+}

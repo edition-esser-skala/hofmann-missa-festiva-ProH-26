@@ -330,3 +330,70 @@ SanctusViolinoII = {
     g2 fis\fermata \bar "|." %18 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoBenedictus
+    h'8\fE h,16. g'32 fis( g fis e fis e d cis)
+      d16. ais32 h16. g'32 fis( g fis e fis e d cis)
+    d( h ais h cis d e fis) g8 h,
+      ais16.( h64 cis) h8 r fis'
+    g32( a g fis g e d e) cis( d cis h) cis( e a g)
+      \slurDashed fis( g fis e fis d cis d) h( cis h ais) h( d g fis)
+    \slurSolid e( fis e d e cis h cis) ais g'( fis e) fis( e d cis)
+      d( h ais h) cis( d e fis) g( e d e fis e d cis)
+    d16 h' r g \appoggiatura g32 \once \slurDashed fis16([ e32 d)] \appoggiatura d \once \slurDashed cis16( h32 ais)
+      h16 h' r g \appoggiatura g32 fis16( e32 d) \appoggiatura d \once \slurDashed cis16([ h32 ais]) %5
+    h8 h'16. fis32 d( e d cis) d( h ais h)
+      cis8 fis16. cis32 fis( gis ais h cis ais gis ais)
+    h( fis gis ais) h( cis d e) fis( d cis d) d( h ais h)
+      h'8 h,16. d32 eis,16.-\critnote d'32 cis16. h32
+    ais8 cis16. ais32 fis( gis ais h cis ais gis fis)
+      h( fis gis ais) h( cis dis e) fis( dis cis dis) h( dis cis h)
+    e h( cis dis e fis g! a) h( g fis g g e dis e)
+      a, a,( h cis d e fis gis) a( cis h a e' cis h a)
+    d d,( e fis g a h cis) d( e fis g a fis e d)
+      g16. g,32 h'8 h16. e,,32 g'8 %10
+    g16. e32 fis16. d32 e,8 cis'
+      d d,16. fis32 a,( h cis d e fis g e)
+    fis16. cis32 d16. fis32 a,( h cis d e fis g e)
+      fis( d cis d e fis g a) h8 d,
+    cis16.( d64 e) d8 r a'
+      h32( c h a h g fis g) e( fis e dis e g a h)
+    a( h a g a fis e fis) d( e d cis d fis g a)
+      g( a g fis g e d e) cis( d cis h cis e fis g)
+    fis( d cis d e d cis h) a( h cis d e fis g e)
+      fis( d cis d e d cis h) a( h cis d e fis g e) %15
+    fis16 d' r h \appoggiatura h32 \once \slurDashed a16([ g32 fis)] \appoggiatura fis e16( d32 cis)
+      d16 d' r h \appoggiatura h32 \once \slurDashed a16([ g32 fis)] \appoggiatura fis \once \slurDashed e16( d32 cis)
+    d8 d'16. a32 fis( g fis e fis d cis d)
+      e8 a,16. a'32 cis( h cis d e cis h a)
+    d a( h cis d e fis g) a( fis e fis fis d cis d)
+      d'8 d,16. fis32 gis,8 h'16. d,32
+    cis8 a'16. e32 cis( d cis h cis a gis a)
+      cis( d cis h cis fis, eis fis) ais( gis ais h cis ais gis fis)
+    h h,( cis d e fis gis ais) h( cis d e fis d cis h)
+      g'( a g fis g e d e) cis( d cis h cis e a g) %20
+    fis( g fis e fis d cis d) h( cis h ais h d g fis)
+      e( fis e d e cis h cis) ais( h ais gis ais cis fis e)
+    d8 d,16. fis32 h,8 d16. fis32
+      h8 d16. fis32 h8 h,
+    ais32( h cis d e cis h ais) h( cis d e fis gis ais h)
+      fis,8 h'16. d,32 cis8 ais'
+    h, h' h16. h,32 g'8
+      g16. g,32 e'8 e16. e,32 cis'8
+    cis16. e32 d16. h32 cis,8 ais'
+      h h,16. g'32 fis( g fis e fis e d cis) %25
+    d16. ais32 h16. g'32 fis( g fis e fis e d cis)
+      d( h ais h cis d e fis) g( a g fis g e d e)
+    cis( d cis h cis e a g) fis( g fis e fis d cis d)
+      h16. h'32 a16. d,32 e4\trill
+    d32( fis e d) a'( fis e d) d'8 \tempoOsanna fis, fis8. g16 a8 g16 fis
+    fis8 e r e e8. fis16 g8 fis16 e
+    e8 d r d h'16 g g' h, cis a a' cis, %30
+    d( a fis' a,) e'( a, g' a,) fis'( a cis, e) d fis a d
+    e, d' d d a,8 cis' d,4 fis,8 fis
+    g2 fis\fermata \bar "|." %33 finis
+  }
+}

@@ -600,3 +600,60 @@ SanctusAltoLyrics = \lyricmode {
   cel -- sis, in ex --
   cel -- sis. %18 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*5 %5
+    r4 \mvTr fis2\fE^\tuttiE fis4
+    fis fis8 fis fis4( eis)
+    fis r8 fis fis4 fis8 fis
+    e!8. e16 e8 e e4 e8 e
+    d8. d16 d8 fis \once \tieDashed g2~ %10
+    g8 fis16 fis e8. e16 fis4 r
+    R1*5 %16
+    r4 a2 a4
+    a a8 a a4( gis)
+    a r8 a fis fis16 fis fis8 fis16 fis
+    fis8. fis16 fis8 fis g2 %20
+    fis4. fis8 e2
+    d4 r8 fis fis fis16 fis fis8 eis?
+    fis fis fis fis16 fis fis4. fis8
+    fis fis g2.
+    fis8 fis16 fis fis8. fis16 fis4 r %25
+    R1*2
+    r4 r8 \tempoOsanna fis fis8. g16 a8 g16([ fis)]
+    fis8 e r e e8. fis16 g8 fis16([ e)]
+    e8 d r d d4 e %30
+    fis g fis8 g fis fis
+    e2 fis4 fis8 fis
+    g2 fis\fermata \bar "|." %33 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %6
+  di -- ctus, qui ve --
+  nit in no -- mi -- ne
+  Do -- mi -- ni, in no -- mi -- ne
+  Do -- mi -- ni, in no -- %10
+  mi -- ne Do -- mi -- ni.
+
+  Be -- ne -- %17
+  di -- ctus, qui ve --
+  nit, qui ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui ve -- %20
+  nit, qui ve --
+  nit in no -- mi -- ne Do -- mi --
+  ni, in no -- mi -- ne Do -- mi --
+  ni, in no -- _
+  mi -- ne Do -- mi -- ni. %25
+
+  O -- san -- na in ex -- %28
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, o -- san -- na %30
+  in ex -- cel -- sis, in ex --
+  cel -- sis, in ex --
+  cel -- sis. %33 finis
+}
