@@ -40,8 +40,8 @@ KyrieClarinoI = {
     d r r
     e8. e16 e8 e e4
     d r r
-    c8. c16 c8 c c4 %50
-    c r8 c16 c c8 c
+    c8. c16 c8 c c^\critnote c %50
+    c4 r8 c16 c c8 c
     c4 r r
     r r d
     c r r

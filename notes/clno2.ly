@@ -4,7 +4,57 @@ KyrieClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoKyrie
-
+    c'4.\fE c8 c4 r
+    r g,8. g16 g2
+    r4 g8. g16 g2
+    R1*2 \noBreak %5
+    g1\fermata \bar "||"
+    \time 3/4 \tempoKyrieB c'8. c16 c8 g g4 \noBreak
+    g r r
+    c8. c16 c8 g g4
+    g r r %10
+    c,8. c16 c8 c c c
+    c4 r8 c16 c c8 c
+    c4 r r
+    r r g'
+    g r r %15
+    c8. c16 c4 r
+    R2.*2
+    d4 r r
+    d2 d8. d16 %20
+    d4 r r
+    R2.*5 %26
+    g,8.\fE g16 g4 r
+    R2.
+    g8. g16 g4 r
+    R2. %30
+    g8. g16 g4 r
+    R2.
+    r4 r e8. e16
+    e4 r r
+    R2.*5 %39
+    r4 e e8. e16 %40
+    e4 r r
+    R2.*4 %45
+    c'8.\fE c16 c8 g g4
+    g r r
+    c8. c16 c8 g g4
+    g r r
+    c,8. c16 c8 c c c %50
+    c4 r8 c16 c c8 c
+    c4 r r
+    r r g'
+    g r r
+    c8. c16 c4 r %55
+    R2.*3
+    r4 g8. g16 g8 g
+    g4 c8 c d4 %60
+    c8 c c4 g8. g16
+    e4 r r
+    R2.*4 %66
+    r4 r8 g\fE g8. g16
+    g4 r8 g g8. g16
+    e4 r r\fermata \bar "|." %69 finis
   }
 }
 
@@ -12,7 +62,32 @@ GloriaClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    s1*49
+    c'4\fE r r2
+    r4 g e r
+    r2 g4 r
+    R1*4 %7
+    r2 g4\fE d'8 d
+    e4 d8 c g4 g8 g
+    g4. g8 g4 r %10
+    r g8. g16 e4 r
+    R1*7 %18
+    e4\fE r r2
+    R1*4 %23
+    r2 g
+    g4 d'8 c c4 g %25
+    g r r2
+    R1
+    r4 c2 g8 g
+    e4 r r2
+    R1*4 %33
+    r2 r4 g
+    g r r2 %35
+    R1*7 %42
+    r4 g2\fE g8 c
+    c4 g g r
+    R1*2 %46
+    r4 g8. g16 e4 r
+    R1*2
     e8. e16 e4 r8 c' g[ g16 g] %50
     e4 e r8 c' g[ g16 g]
     e8. e16 e4 r2
